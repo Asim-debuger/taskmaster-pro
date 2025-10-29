@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- # TaskMaster Pro
 Fully-featured To-Do app (local-only demo) — add/edit/delete, reminders, recurring tasks, export/import, dark mode, attachments (file-name stored), priorities, categories, search/filter.
 
@@ -56,3 +57,6 @@ Works in all modern browsers that support:
 ## License
 
 MIT License - feel free to use this code for your own projects.
+=======
+# taskmaster-pro
+>>>>>>> cfd355af7c93353013dabd0484c2fc6e4643d6be
