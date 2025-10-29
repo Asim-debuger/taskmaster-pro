@@ -1,0 +1,22 @@
+{
+  "short_name": "TaskMaster Pro",
+  "name": "TaskMaster Pro - Advanced Task Management",
+  "description": "A modern task management application with reminders and smart organization",
+  "icons": [
+    {
+      "src": "assets/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6366f1",
+  "background_color": "#f8fafc",
+  "categories": ["productivity", "utilities"]
+}

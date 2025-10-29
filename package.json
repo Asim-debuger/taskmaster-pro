@@ -1,0 +1,27 @@
+{
+  "name": "taskmaster-pro",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "TaskMaster Pro — an advanced To-Do List app with add/edit/delete, reminders, recurring tasks, export/import, dark mode, attachments, priorities, categories, and search/filter features. LocalStorage-based (no backend).",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "lite-server --baseDir=public --open",
+    "start": "npm run dev",
+    "build": "echo \"Static build only — open public/index.html or serve with any static server\""
+  },
+  "keywords": [
+    "todo",
+    "task-manager",
+    "productivity",
+    "javascript",
+    "vanilla-js",
+    "frontend",
+    "reminders",
+    "dark-mode"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

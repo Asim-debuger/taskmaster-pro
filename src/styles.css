@@ -1,0 +1,60 @@
+/* Add these styles to your existing CSS file */
+
+.view-tabs {
+  display: flex;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.view-tab {
+  padding: 0.75rem 1.5rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.view-tab.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+}
+
+.view-tab i {
+  margin-right: 0.5rem;
+}
+
+.badge.reminder {
+  background-color: #e6f7ff;
+  color: #1890ff;
+  border: 1px solid #91d5ff;
+}
+
+.badge.deleted {
+  background-color: #fff2e8;
+  color: #fa541c;
+  border: 1px solid #ffbb96;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-muted);
+}
+
+.empty-state i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.empty-state h3 {
+  margin: 0 0 0.5rem;
+  font-weight: 500;
+}
+
+.empty-state p {
+  margin: 0;
+  opacity: 0.7;
+}
